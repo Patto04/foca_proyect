@@ -40,7 +40,7 @@
 /* Sección créditos postre*/
 .Seccion-creditos {
   padding: 3.75rem 1.25rem;
-  background-color: rgb(253, 172, 21);
+  background-color: #FF8C00;
 }
 .cont-gral-creditos {
   display: flex;
@@ -73,7 +73,7 @@
 /*SECCION SEGUROS R4ECETAS*/
 .Seccion-seguros {
   padding: 3.75rem 1.25rem;
-  background-color: rgb(245, 232, 232);
+  background-color:#F5F5DC;
 }
 .cont-gral-seguros {
   display: flex;
