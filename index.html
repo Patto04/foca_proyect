@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Site Foquita</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!--Logo menu-->
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img width="50" height="50" src="Logotipo/tmo.png" alt="Logo Foquita" />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li><a href="">Créditos</a></li>
+        <li>
+          <a href="">Cuentas</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Cuenta Sueldo</a></li>
+            <li><a href="">Club Emprendedor</a></li>
+            <li><a href="">Yape y Plin</a></li>
+            <li><a href="">Depósitos</a></li>
+          </ul>
+        </li>
+        <li><a href="">Seguros</a></li>
+        <li><a href="#Contáctanos">Contáctanos</a></li>
+      </ul>
+    </nav>
+
+    <!--SECCIÓN POSTRES-->
+    <section class="Seccion-creditos">
+      <div class="cont-gral-creditos">
+        <div class="cont-cred-texto">
+          <h2>Sección de Postres</h2>
+          <p>
+            Los postres son el cierre perfecto de cualquier comida, ese instante
+            en el que los sabores se vuelven más suaves, dulces y memorables.
+            Prepararlos es un arte que combina técnica, paciencia y creatividad.
+            Cada receta guarda una historia: un aroma que recuerda a la
+            infancia, una textura que reconforta o un sabor que invita a
+            compartir. En este espacio, exploramos la repostería como una
+            experiencia sensorial y emocional. Aquí encontrarás recetas para
+            disfrutar, experimentar y celebrar, donde cada bocado es una pequeña
+            tentación suave que se convierte en un momento especial.
+          </p>
+          <p>
+            En esta página encontrarás una colección organizada y fácil de
+            explorar, donde cada postre tiene su espacio y su esencia. No solo
+            compartimos ingredientes y pasos: también la inspiración detrás de
+            cada creación. Queremos que este recetario te acompañe como una guía
+            práctica y a la vez cálida, que puedas consultar cuando busques algo
+            rápido, algo especial o algo que simplemente te haga sonreír.
+          </p>
+        </div>
+
+        <div class="cont-cred-img">
+          <img
+            src="Logotipo/postres-tipicos-de-lima.jpg"
+            alt="Postres típicos de Lima"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--SECCIÓN RECETAS-->
+    <section class="Seccion-seguros">
+      <div class="cont-gral-seguros">
+        <div class="cont-seg-texto">
+          <h2>Sección Recetas</h2>
+          <p>
+            Las recetas son una guía para crear sabores, pero también son parte
+            de nuestra memoria y tradición. Cada paso, cada medida y cada
+            detalle guardan la esencia de quienes las han preparado antes. En la
+            repostería, las recetas se convierten en un puente entre el gusto y
+            la creatividad: son instrucciones que invitan a experimentar, a
+            adaptar y a descubrir nuevas combinaciones. Siguiendo una receta
+            podemos aprender la técnica, pero es al poner nuestras manos en la
+            masa cuando el postre comienza a cobrar vida. Por eso, este
+            recetario no solo reúne preparaciones dulces; reúne experiencias,
+            aromas y momentos que se disfrutan desde el primer ingrediente hasta
+            el último bocado.
+          </p>
+          <button>Leer más...</button>
+        </div>
+        <div class="cont-seg-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wD-g_Gyn2I4?si=TBwd_fjA1sDOrrHe"
+            title="Video de recetas de postres"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION FORMULARIO-->
+    <section class="Seccion-formulario" id="Contáctanos">
+      <div class="cont-gral-formulario">
+        <h2>Formulario de Registro</h2>
+        <p>Complete todos los datos y sus preferencias</p>
+
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombres Completos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese su nombre"
+            />
+          </div>
+
+          <div class="campo">
+            <label for="país">País:</label>
+            <select id="país" name="país">
+              <option value="">Seleccione un país</option>
+              <option value="Perú">Perú</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brasil">Brasil</option>
+              <option value="México">México</option>
+            </select>
+          </div>
+
+          <!--checkbox-->
+          <div class="campo">
+            <label>Intereses:</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label>
+                  <input
+                    type="checkbox"
+                    name="intereses"
+                    value="tecnología"
+                  />Tecnología
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input
+                    type="checkbox"
+                    name="intereses"
+                    value="educación"
+                  />Educación
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input
+                    type="checkbox"
+                    name="intereses"
+                    value="idiomas"
+                  />Idiomas
+                </label>
+              </li>
+            </ul>
+          </div>
+
+          <!--RADIO BUTTON-->
+          <div class="campo">
+            <label>Género:</label>
+            <ul class="lista-radio">
+              <li>
+                <label>
+                  <input
+                    type="radio"
+                    name="genero"
+                    value="masculino"
+                  />Masculino
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="genero" value="femenino" />Femenino
+                </label>
+              </li>
+            </ul>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!--PIE DE PÁGINA-->
+    <section class="seccion-footer">
+      <div class="cont-gral-footer">
+        <div class="footer-info">
+          <h3>Acerca de nosotros</h3>
+          <p>
+            En Sabores del Hogar encontrarás un espacio dedicado a los amantes
+            de la cocina y la buena comida. Nuestra página te ofrece una amplia
+            variedad de recetas fáciles, deliciosas y prácticas, pensadas para
+            todo tipo de paladares y niveles de experiencia.
+          </p>
+          <p>&copy; 2025 Todos los derechos reservados</p>
+        </div>
+
+        <div class="footer-redes">
+          <h3>Nuestras Redes</h3>
+          <ul class="lista-redes">
+            <li>
+              <a
+                href="https://www.facebook.com/focasasesinas/photos/?_rdr"
+                target="_blank"
+                rel="noopener"
+              >
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/cardiomocare/?hl=es"
+                target="_blank"
+                rel="noopener"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/Sepa_mass/status/1697978099453850052"
+                target="_blank"
+                rel="noopener"
+              >
+                X (Twitter)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
